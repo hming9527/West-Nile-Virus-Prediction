@@ -1,4 +1,5 @@
 # West Nile Virus Prediction
+Author: Haiming Tian
 ## Problem Statement
 West Nile virus is a kind of fatal virus that would spread to humans through mosquitos that carry the virus. In North America, cases of WNV occur during mosquito season, which starts in the summer and continues through fall. WNV cases have been reported in all of the continental United States. There are no vaccines to prevent or medications to treat WNV. Though most people will not develop any symptoms after mosquitos bite, some people will and it could be fatal.
 

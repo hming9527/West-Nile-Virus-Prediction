@@ -13,6 +13,14 @@ My approach contains the following steps:
 3. Building models.
 4. Predicting.
 ### Data Cleaning
+Weather data:
+
+![1.1](./Screen Shot 2017-12-19 at 05.03.44.png)
+
+Training data:
+
+![1.2](./Screen Shot 2017-12-19 at 05.02.25.png)
+
 For this challenge, there are values that are missing in the weather data, we need to perform some cleaning jobs as well as format the date attribute for future joining operation.
 
 ### Feature Selection and Engineering
@@ -35,5 +43,9 @@ For training data, the data was organized in such a way that when the number of 
 
 ### Model Training and Prediction
 Based on the out-of-fold prediction result on number of mosquitoes from 3 different regression models, meta-features are generated and used to create a stacked dataset. Then use gradient tree boosting to train on stacked data and obtain prediction on test dataset.
+
+Prediction:
+
+![1.3](./Screen Shot 2017-12-19 at 12.12.39.png)
 
 However, this competition works differently from previous ones I've seen. The way this competition works is to submit predictions to Kaggle and then feedback will be given, and the competition is ended, I can't get any feedbacks on my prediction. I should've realized that before I decided to work on this project. But essentially, I believe my approach will work.
